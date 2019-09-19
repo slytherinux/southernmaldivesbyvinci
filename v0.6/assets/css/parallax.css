@@ -1,0 +1,22 @@
+.parallax-images {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#about-image {
+    background-image: url('../images/alexandra-rose--F8yDx1n6NI-unsplash.jpg');
+    min-height: 500px;
+}
+
+#services-image {
+    background-image: url('../images/sea-79606_1920.jpg');
+    min-height: 500px;
+}
+
+#contact-image {
+    background-image: url('../images/octavian-rosca-e3OSaoc7EuE-unsplash.jpg');
+    min-height: 500px;
+}

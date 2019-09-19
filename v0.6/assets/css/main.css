@@ -1,0 +1,153 @@
+section {
+    text-align: center;
+    padding: 20px 40px;
+    background-color: var(--overlay-color);
+}
+
+h2 {
+    padding: 20px;
+    margin: 0 auto;
+    font-family: var(--header-font);
+    font-size: 2.5rem;
+    color: white;
+    background: none;
+    opacity: 0.9;
+    letter-spacing: 4px;
+    max-width: 960px;
+}
+
+p.contents {
+    margin: auto;
+    font-size: 1.2ren;
+    font-family: var(--contents-font);
+    color: white;
+    opacity: 0.8;
+    padding: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    line-height: 1.7rem;
+    font-weight: 300;
+}
+
+#trilogy.logos-container {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    padding: 21px;
+}
+
+#smd,
+#padi,
+#spm {
+    flex-basis: 20%;
+    padding: 20px;
+}
+
+.logos-container img {
+    width: 100px;
+    transition: all 0.25s ease-in-out;
+}
+
+.logos-container img:hover {
+    transform: scale(1.2);
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.service-container {
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-basis: 20%;
+}
+
+.service-container img {
+    width: 110px;
+}
+
+.service-container h4,
+.service-container h5 {
+    color: white;
+}
+
+.service-container h4 {
+    font-size: 1.4em;
+    font-family: var(--header-font);
+    letter-spacing: 2px;
+    margin: 10px;
+}
+
+.service-container h5 {
+    font-size: 1.1em;
+    font-family: var(--contents-font);
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin: 10px;
+    display: none;
+}
+
+.service-container:hover {
+    display: flex;
+}
+
+.contacts-container {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.individual-contact img {
+    width: 50px;
+}
+
+.individual-contact p {
+    color: white;
+    font-family: 'Raleway';
+    margin-top: 1rem;
+}
+
+p.footer {
+    color: white;
+    font-family: 'Raleway';
+}
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.icons-wrap {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.icon {
+    margin: 0px 5px;
+}
+
+.icon img {
+    width: 2.6rem;
+}
+
+p.manta {
+    color: white;
+    font-family: 'Raleway';
+    font-size: 4rem;
+    margin-left: auto;
+    text-align: right;
+    padding: 80px;
+}

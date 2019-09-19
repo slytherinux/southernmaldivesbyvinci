@@ -1,0 +1,27 @@
+@media(min-width:700px) {
+    section {
+        padding: 50px 150px;
+    }
+}
+
+@media(max-width:700px) {
+    #trilogy.logos-container {
+        flex-direction: column;
+    }
+    .logos-container a:nth-of-type(1) {
+        order: 1;
+    }
+    .services-container {
+        flex-direction: column;
+    }
+    .service-container {
+        margin: 10px 25px;
+    }
+    .contacts-container {
+        flex-direction: column;
+        margin-top: 0px;
+    }
+    .individual-contact {
+        margin: 30px;
+    }
+}
